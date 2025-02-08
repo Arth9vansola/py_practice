@@ -7,10 +7,13 @@ a = (1,2,3,4,5,6,7,8,9,10)
 
 t = (0 ,1, 2, 3)
 
-print(t[1:])
+# print(t[1:])
 # print(t[::-1]) # reverse a tuple
 # print(t[::]) # print  shallow copy means it will  change the original tuple
-print(t[2:4])
+# print(t[2:4])
+num = t[::]
+print(t)
+print(num)
 
 # packing and unpacking in tuple
 
