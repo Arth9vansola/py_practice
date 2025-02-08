@@ -18,7 +18,7 @@
 #         return n
 #     return fib(n - 1) + fib(n - 2)
 
-# print(fib(35))  # Takes a long time due to repeated calculations!
+# print(fib(100))  # Takes a long time due to repeated calculations!
 
 # from functools import lru_cache
 
@@ -27,7 +27,7 @@
 #     if n <= 1:
 #         return n
 #     return fib(n - 1) + fib(n - 2)
-# print(fib(3))  # Much faster due to memoization!
+# print(fib(10))  # Much faster due to memoization!
 # fib.cache_clear()  # Clears stored results for fresh calculations
 
 # Example with Limited Cache Size
