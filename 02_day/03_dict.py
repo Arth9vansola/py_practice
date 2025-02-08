@@ -14,7 +14,7 @@ d = {
 # print(d.keys())
 # print(d.values())
 # print(d[1])
-# print(d.get(2))
+print(d.get(2))
 # print(d.update({4: "four"}))
 # print(d)
 # print(d['car'])
