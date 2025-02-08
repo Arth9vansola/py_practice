@@ -14,6 +14,6 @@ def kth_largest(nums, k):
     heapq.heapify(nums)  # Convert list into a min-heap
     return heapq.nlargest(k, nums)[-1]  # Extract Kth largest
 
-nums = [7, 10, 4, 3, 20, 15]
+nums = [7, 10, 4, 3, 20, 15,12]
 k = 3
-print(kth_largest(nums, k))  # Output: 10
+print(kth_largest(nums, k))  # Output: 12
